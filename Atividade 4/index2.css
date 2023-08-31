@@ -1,0 +1,98 @@
+/* geral */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif, "times";
+    background: hsl(240, 18%, 93%);
+}
+
+/* formulario */
+#formulario {
+    margin: 30px auto;
+    padding: 10px;
+    background-color:hsl(240, 1%, 41%);
+    border: 1px dashed hsl(0, 0%, 19%);;
+    border-radius: 10px;
+    max-width: 800px;
+}
+
+/* titulo dos campos */
+label {
+    font-size: 12px;
+    color: black;
+}
+
+/* campos de texto */
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 5px;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    font-size: 12px;
+    margin-bottom: 10px;
+    /* se quiser que ocupe todo espaço do form: width: 100% */
+}
+
+/* campos de opções */
+input[type="radio"],
+input[type="checkbox"]
+{
+    margin-right: 5px;
+}
+
+/* botões */
+input[type="submit"],
+button[type="reset"],
+button[type="button"]
+{
+    padding: 3px 20px;
+    border: 1px solid white; /* a largura, o estilo e a cor */
+    border-radius: 5px; /* define os cantos */
+    font-size: 12px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+/* botão cancelar */
+button[type="button"]{
+    background-color: red;
+    border-color: white;
+}
+
+/* campos de seleção */
+select{
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 5px; /* define cantos */
+    font-size: 12;
+    width: 30%;
+    margin-bottom: 30px;
+    background-image: linear-gradient(red, yellow);
+}
+
+/* quando selecionar campo de seleção */
+select:focus {
+    outline: 2px solid red;
+    border-color: #333333;
+}
+
+/* legenda dos campos */
+legend{
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+}
+
+/* mensagens de erro */
+input:invalid {
+    border: 2px solid red;
+}
+
+.rodape {
+    margin: 0 auto;
+    text-align: center;
+}
