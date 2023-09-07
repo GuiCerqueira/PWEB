@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: grey;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+}
+
+.main-section{
+    width: 90%;
+    height: auto;
+    float: left;
+    display: block;
+	min-height: 400px;
+    font-size:15px;
+}
+
+#tituloShrek{
+    font-size: xx-large;
+    text-align: center;
+}
+
+article {
+    border: 1px solid black;
+    padding: 10px;
+    float: left;
+    margin: 10px 400px 10px 10px;
+    background: white;
+    border-radius: 5px;
+}
+
+h2 {
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+img {
+    float: left;
+    padding: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+p {
+    text-align: justify;
+}
+
+#OutrosPersonagens {
+    margin-left: 900px;
+    background: white;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.rodape p {
+    font-style: italic;
+    font-size: large;
+    margin-top: 0;
+    clear: both;
+    text-align: end;
+}
+
