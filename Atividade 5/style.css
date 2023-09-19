@@ -1,0 +1,149 @@
+body{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(141, 212, 141);
+}
+
+.headerSite{
+    height: 200px;
+    margin-bottom: 30px;
+    padding: 90px 10px 0px 10px;
+    display: flex;
+    justify-content:space-between;
+    background-image: url(./images/taotaodistante.jpeg);
+    background-size: 1900px 300px;
+    color: white;
+}
+
+.tituloSite {
+    font-size: 50px;
+    padding-left: 50px;
+}
+
+.headerLinks a{
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.headerLinks a:hover{
+    text-decoration: underline;
+}
+
+.principaisNoticias{
+    margin: auto;
+    width: 70vw;
+}
+
+.destaques{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 2fr 1fr;
+    height: 50vh;
+    margin-bottom: 10px;
+}
+
+.destaque{
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 0px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.destaque:hover{
+    transform: translateY(5px);
+}
+
+.destaque1{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-image: url(./images/trianguloamoroso.jpg);
+}
+
+.destaque2{
+    background-image: url(./images/alasao.jpeg);
+}
+
+.destaque3{
+    background-image: url(./images/biscoitao.jpg);
+}
+
+.textos{
+    background-color: #0000007f;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+.textos, .textos a{
+    color: #fff;
+}
+
+.tituloNoticia{
+    margin: 0;
+    font-size: 20px;
+}
+
+.descricaoDestaque{
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.grupoClassificados{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: 50px auto;
+    grid-gap: 10px;
+}
+
+.anuncioClassificado {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    color: rgb(2, 32, 2);
+
+}
+
+.itemClassificado{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.tituloClassificado{
+    font-weight: bold;
+}
+
+.imagemClassificado{
+    width: 150px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.tituloItemClassificado{
+    font-weight: bold;
+    font-size: 5;
+}
+
+.descricao{
+    text-align: justify;
+}
+
+.anuncio aside{
+    background: #4ABDAC;
+    flex: 0 0 20vw;
+    float: right;
+}
+
+.rodape{
+    background-color: rgb(2, 32, 2);
+    text-align: center;
+    padding: 30px 0;
+    color: #fff;
+}
