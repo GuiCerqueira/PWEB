@@ -1,14 +1,14 @@
 //Utilizando Object
 var aluno1 = new Object();
-aluno1.ra = "0030482123001";
-aluno1.nome = "Albert Leme de Brito";
+aluno1.ra = "0030482013011";
+aluno1.nome = "Guilherme Cerqueira";
 alert("RA: " + aluno1.ra + "\nNome: " + aluno1.nome);
 
 //Utilizando {}
 var aluno2 = {};
-aluno2.ra = "0030482123021";
-aluno2["nome"] = "Mayara Angel de Jesus Ascari";
-//aluno2.nome = "Mayara";
+aluno2.ra = "0030482123001";
+aluno2["nome"] = "Albert Leme de Brito";
+//aluno2.nome = "Alberto";
 alert("RA: " + aluno2.ra + "\nNome: " + aluno2.nome);
 
 //Utilizando declaração literal
