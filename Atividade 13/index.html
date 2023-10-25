@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Janela maluca</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div id="texto">
+        <h1 id="estado">Janela fechada</h1>
+        <br>
+        <br>
+        <h4>- Para fechar a janela: deixe o mouse fora da janela;</h4>
+        <h4>- Para abrir a janela: passe o mouse dentro da janela;</h4>
+        <h4>- Para quebrar a janela: clique nela. CLIQUE IMEDIATAMENTE!</h4> 
+        <br>
+    </div>
+    
+    <div id="janela" onmouseover="abrirJanela()" onmouseout="fecharJanela()" onclick="quebrarJanela()"></div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
